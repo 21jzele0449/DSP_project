@@ -74,5 +74,3 @@ This project successfully demonstrates:
 - Implement machine learning for arrhythmia detection.
 - Improve GUI for mobile and clinical usability.
 - Support real ECG datasets (e.g., MIT-BIH).
-
-
