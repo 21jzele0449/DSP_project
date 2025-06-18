@@ -1,4 +1,4 @@
-## DSP_project
+# DSP_project
 
 ## ECG Signal Processing with Python:
 
@@ -17,29 +17,28 @@ Electrocardiogram (ECG) signals are essential for diagnosing cardiovascular dise
 3. Visualize and interactively analyze ECG signals via a Streamlit dashboard.
 
 
-## 🧪 Methodology:
+## Methodology:
 
-# Signal Acquisition
+### Signal Acquisition
 - A **synthetic ECG signal** is generated using `NeuroKit2` to simulate real-world cardiac activity.
 
-# Noise Filtering
+### Noise Filtering
 - **High-Pass Filter (0.5 Hz)**: Removes baseline drift.
 - **Notch Filter (50 Hz)**: Eliminates power line interference.
 - **Low-Pass Filter (100 Hz)**: Removes high-frequency noise.
 - Filters implemented using the **Butterworth** design via `scipy.signal`.
 
-# Feature Extraction
+### Feature Extraction
 - **QRS Complex Detection**: Performed using the squared derivative of the filtered signal.
 - **Peak Detection**: Implemented using `find_peaks()` from `SciPy`.
 - **Heart Rate**: Calculated using RR intervals.
 
-# Visualization
+### Visualization
 - Real-time plots using **Streamlit**:
   - Raw ECG Signal
   - Filtered Signal
   - QRS Peaks & Heart Rate
 
----
 
 ## Tech Stack & Libraries
 
