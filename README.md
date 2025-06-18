@@ -1,13 +1,11 @@
-# DSP_project
-# ECG Signal Processing using DSP Techniques :
-This project focuses on filtering noise from real-world ECG signals and extracting key cardiac parameters using digital signal processing (DSP) methods to enhance accuracy in clinical diagnosis.
+## DSP_project
 
-## ECG Signal Processing with Python
+## ECG Signal Processing with Python:
 
 This project applies **Digital Signal Processing (DSP)** techniques to denoise ECG signals and extract key cardiac features such as the **QRS complex** and **heart rate**. It provides an interactive interface using **Streamlit**, making it suitable for educational and clinical analysis.
 
 
-## Abstract
+## Abstract:
 
 Electrocardiogram (ECG) signals are essential for diagnosing cardiovascular diseases. However, raw ECG data often contains noise from various sources such as power line interference, muscle artifacts, and baseline drift. This project implements effective filtering techniques and feature extraction methods using Python libraries like `SciPy`, `NeuroKit2`, and `Streamlit` to analyze and visualize ECG signals.
 
